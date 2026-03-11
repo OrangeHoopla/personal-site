@@ -24,7 +24,7 @@ export default async function Posts({ fileLocation }: { fileLocation: string }) 
                                             New
                                         </div>
                                     }
-                                    <div className="font-semibold truncate" title="VLAs with Long and Short-Term Memory">
+                                    <div className="font-semibold truncate" title={post.title}>
                                         {post.title}
                                     </div>
                                 </div>

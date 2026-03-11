@@ -1,0 +1,71 @@
+{
+  "title": "All Posts",
+  "content": "Content",
+
+  "posts": [ 
+    {
+        "title": "Running K8s Cluster in Tailscale",
+        "content": "The complexities that no one thinks about when you are trying to have things secure",
+        "link": "/blog/hoopla-cluster",
+        "date": "March 11, 2026",
+        "new": true,
+        "box": false
+
+    },
+    {
+        "title": "Scanning Grocery Reciepts",
+        "content": "Processing grocery reciepts using multiple image processing techniques before feeding the results into a OCR.",
+        "link": "/project/cartlog",
+        "date": "December 15, 2025",
+        "new": false,
+        "box": true
+
+    },
+    {
+        "title": "3D printed self balancing platform",
+        "content": "Designed in FreeCad and printed on a Bambu 3D printer a simple platform wiyj 3-axis to balance a ball bearing power by a RP2040.",
+        "link": "/project/balance-platform",
+        "date": "December 15, 2025",
+        "new": false,
+        "box": true
+
+    },
+    {
+        "title": "DC PCB Map",
+        "content": "Custom circuit board shaped similar to the previous circuit board to act as A small live tracker for the DC metro system.",
+        "link": "/project/dc-pcb",
+        "date": "February 15, 2024",
+        "new": false,
+        "box": false
+
+    },
+    {
+        "title": "PCB Rose",
+        "content": "Custom circuit board shaped like a rose with a basic Atmel chip to blink LEDs.",
+        "link": "/project/pcb-rose",
+        "date": "March 12, 2023",
+        "new": false,
+        "box": false
+
+    },
+    {
+        "title": "Home Air Quality Sensor",
+        "content": "Based on Air Gradient combining multiple sensore on a D1 Wesmos ESP8266 mini to act as a node for Prometheus",
+        "link": "/project/air-sensor",
+        "date": "February 15, 2026",
+        "new": false,
+        "box": true
+
+    },
+    {
+        "title": "LED Cube",
+        "content": "Small LED cube powered by an Atmel chip",
+        "link": "/project/led-cube",
+        "date": "September 20, 2020",
+        "new": false,
+        "box": false
+
+    }
+
+  ]
+}

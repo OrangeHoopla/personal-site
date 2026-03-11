@@ -1,8 +1,22 @@
-import Image from "next/image";
+import Navbar from "@/components/navbar"
+
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
+    <div className="flex content-start flex-wrap min-h-screen items-left w-2/5 font-sans dark:bg-black sm:justify-start px-11">
+      <Navbar />
+      <p className="font-mono text-sm">
+        Physical Intelligence is bringing general-purpose AI into the physical world.
+        We are a group of engineers, scientists, roboticists, and company builders developing
+        foundation models and learning algorithms to power the robots of today and the physically-actuated
+        devices of the future.
+      </p>
+    </div>
+  );
+}
+
+
+{/* <div className="flex min-h-screen items-center justify-center bg-tester-500 font-sans dark:bg-black">
       <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
         <Image
           className="dark:invert"
@@ -12,6 +26,7 @@ export default function Home() {
           height={20}
           priority
         />
+        #f5f4ef
         <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
           <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
             To get started, edit the page.tsx file.
@@ -60,6 +75,4 @@ export default function Home() {
           </a>
         </div>
       </main>
-    </div>
-  );
-}
+    </div> */}

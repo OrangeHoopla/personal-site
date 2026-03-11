@@ -1,6 +1,10 @@
 
 @import "tailwindcss";
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   /* --background-image: radial-gradient(#e5e7eb 32px,transparent 32px); */
   --background-color: #f5f4ef;
@@ -21,6 +25,7 @@
 @theme {  
   --color-mint-500: oklch(0.72 0.11 178);
   --color-background-hover: oklch(0.9364 0.0068 97.36)
+
   
 }
 

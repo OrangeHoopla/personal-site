@@ -1,0 +1,26 @@
+{
+  "title": "All Posts",
+  "content": "Content",
+
+  "posts": [ 
+    {
+        "title": "Running K8s Cluster in Tailscale",
+        "content": "The complexities that no one thinks about when you are trying to have things secure",
+        "link": "/blog/hoopla-cluster",
+        "date": "March 11, 2026",
+        "new": true,
+        "box": false
+
+    },
+    {
+        "title": "Why I am writing a personal blog.",
+        "content": "Mostly to have a look up reference for all of my technical success's, but mostly struggles throughout the years.",
+        "link": "/blog/fake",
+        "date": "February 24, 2026",
+        "new": true,
+        "box": true
+
+    }
+
+  ]
+}

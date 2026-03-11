@@ -1,16 +1,24 @@
+import Footer from "@/components/footer";
 import Navbar from "@/components/navbar"
+import Posts from "@/components/posts";
 
 
 export default function Home() {
   return (
-    <div className="flex content-start flex-wrap min-h-screen items-left w-2/5 font-sans dark:bg-black sm:justify-start px-11">
+    <div className="flex content-start flex-wrap min-h-screen items-left w-2/5 
+                    font-sans dark:bg-black sm:justify-start px-11 ">
+      {/* bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] bg-size-[16px_16px] */}
       <Navbar />
-      <p className="font-mono text-sm">
-        Physical Intelligence is bringing general-purpose AI into the physical world.
-        We are a group of engineers, scientists, roboticists, and company builders developing
-        foundation models and learning algorithms to power the robots of today and the physically-actuated
-        devices of the future.
+      <p className="font-mono text-sm pb-9">
+        Computer Engineer interested in robotics, embedded systems, computer vision
+        and learning new things. Place to store and catalog all of the little projects
+        that i am working on currently or from the past. If you want to learn more or 
+        or have feedback on any of my notes feel free to reach out to my via email.
       </p>
+      <Posts />
+      
+      <Footer/>
+    
     </div>
   );
 }

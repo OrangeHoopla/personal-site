@@ -1,0 +1,24 @@
+{
+  "title": "All Posts",
+  "content": "Content",
+
+  "posts": [ 
+    {
+        "title": "Running K8s Cluster in Tailscale",
+        "content": "Running a high availavility cluster across the east coast with a few friends. Underneath a VPN, using an opensource version of tailscale.",
+        "link": "/blog/hoopla-cluster",
+        "date": "March 11, 2026",
+        "new": true
+
+  },
+  {
+        "title": "VLAs with Long and Short-Term Memory",
+        "content": "Multi-Scale Embodied Memory (MEM) gives our models both long-term and short-term memory, enabling complex tasks longer than ten minutes.",
+        "link": "/blog/fake",
+        "date": "February 24, 2026",
+        "new": false
+
+  }
+
+  ]
+}

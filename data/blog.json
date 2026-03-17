@@ -9,7 +9,8 @@
         "link": "/blog/hoopla-cluster",
         "date": "March 11, 2026",
         "new": true,
-        "box": false
+        "box": false,
+        "type": "blog"
 
     },
     {
@@ -18,7 +19,8 @@
         "link": "/blog/fake",
         "date": "February 24, 2026",
         "new": true,
-        "box": true
+        "box": true,
+        "type": "blog"
 
     },
     {
@@ -27,7 +29,8 @@
       "link": "/blog/crackmeh",
       "date": "January 11, 2021",
       "new": false,
-      "box": false
+      "box": false,
+      "type": "blog"
     }
 
   ]

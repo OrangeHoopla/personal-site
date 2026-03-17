@@ -9,7 +9,8 @@
         "link": "/blog/hoopla-cluster",
         "date": "March 11, 2026",
         "new": true,
-        "box": false
+        "box": false,
+        "type": "project"
 
     },
     {
@@ -18,7 +19,8 @@
         "link": "/blog/fake",
         "date": "February 24, 2026",
         "new": false,
-        "box": true
+        "box": true,
+        "type": "blog"
 
     }
 

@@ -9,7 +9,8 @@
         "link": "/blog/hoopla-cluster",
         "date": "March 11, 2026",
         "new": true,
-        "box": false
+        "box": false,
+        "type": "project"
 
     },
     {
@@ -18,7 +19,8 @@
         "link": "/project/cartlog",
         "date": "December 15, 2025",
         "new": false,
-        "box": true
+        "box": true,
+        "type": "project"
 
     },
     {
@@ -27,7 +29,8 @@
         "link": "/project/balance-platform",
         "date": "December 15, 2025",
         "new": false,
-        "box": true
+        "box": true,
+        "type": "project"
 
     },
     {
@@ -36,7 +39,8 @@
         "link": "/project/dc-pcb",
         "date": "February 15, 2024",
         "new": false,
-        "box": false
+        "box": false,
+        "type": "project"
 
     },
     {
@@ -45,7 +49,8 @@
         "link": "/project/pcb-rose",
         "date": "March 12, 2023",
         "new": false,
-        "box": false
+        "box": false,
+        "type": "project"
 
     },
     {
@@ -54,7 +59,8 @@
         "link": "/project/air-sensor",
         "date": "February 15, 2026",
         "new": false,
-        "box": true
+        "box": true,
+        "type": "project"
 
     },
     {
@@ -63,7 +69,8 @@
         "link": "/project/led-cube",
         "date": "September 20, 2020",
         "new": false,
-        "box": false
+        "box": false,
+        "type": "project"
 
     }
 

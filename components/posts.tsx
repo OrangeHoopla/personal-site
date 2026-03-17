@@ -10,14 +10,21 @@ export default async function Posts({ fileLocation }: { fileLocation: string }) 
         <div className="pl-2">
 
             <div className="relative flex flex-col space-y-4 border-l border-gray-300 py-4 before:h-6 before:w-px before:bg-gradient-to-t before:from-transparent before:to-background before:absolute before:-left-px before:top-0 after:h-6 after:w-px after:bg-gradient-to-b after:from-transparent after:to-background after:absolute after:-left-px after:bottom-0">
-                {data.posts.map((post: { title: string; date: string; content: string; link: string; new: boolean; box: boolean; }) => {
+                {data.posts.map((post: { title: string; date: string; content: string; link: string; new: boolean; box: boolean; type: string}) => {
                     return (
 
-                        <a key={post.link} className={`flex flex-col gap-1 px-3 py-2 ml-6 group cursor-pointer 
+                        <a key={post.link} className={`flex flex-col gap-1 px-3 py-2 ml-6 cursor-pointer 
                             ${post.box ? "bg-white/60 border border-[#D4D3CB] hover:border-[#C0BDAD] hover:shadow-[3px_3px_0px_#C0BDAD] transition-all hover:bg-white" : "hover:bg-background-hover"}`}
                             href={post.link}>
                             <div className="flex items-baseline gap-1 justify-between text-xs w-full relative">
-                                <button className="absolute size-[5px] bg-gray-900 rounded-xs -left-[39px] top-[4px] outline outline-background outline-2" />
+                                <div className="group relative cursor-default">
+                                    <button className="absolute size-[5px] bg-gray-900 rounded-xs -left-[39px] top-[4px] outline outline-background outline-2" />
+                                    <span className="hidden absolute group-hover:block bg-white shadow -left-[60px] top-[15px] rounded bg-card">
+                                        <div className="text-xs font-mono px-2 py-0.5">
+                                            { post.type }
+                                        </div>
+                                    </span>
+                                </div>
                                 <div className="flex items-baseline gap-2 relative grow truncate">
                                     {post.new &&
                                         <div className="px-1 h-4 w-fit bg-[#FBD45B] text-[#111] text-[10px] font-medium flex justify-center items-center">

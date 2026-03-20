@@ -1,5 +1,7 @@
 import * as React from "react"
 import { JSX } from "react/jsx-runtime"
+
+//https://www.svgviewer.dev/svg-to-react-jsx
 const SvgComponent = (props: JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"

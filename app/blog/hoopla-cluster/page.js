@@ -33,7 +33,52 @@ export default function Hoopla() {
                         </a> */}
                     </div>
                 </div>
-                Documentation of project goes here
+                <div className="max-w-3xl mx-auto mb-12 mt-8 border border-[#D4D3CB] bg-white/60 p-6">
+                    <div className="text-xs font-mono text-muted-foreground uppercase tracking-wider mb-4">
+                        Used Technologies
+                    </div>
+                    <div className="columns-1 sm:columns-2 gap-8">
+                        <div className="break-inside-avoid mb-4">
+                            <p className="font-semibold text-sm block mb-1">
+                                Semi-FOSS
+                            </p>
+                            <div className="space-y-0.5">
+                                <p href="#door-drivethrough" className="text-xs text-muted-foreground block">
+                                    Tailscale
+                                </p>
+                            </div>
+                        </div>
+                        <div className="break-inside-avoid mb-4">
+                            <p href="#event-2-laundry" className="font-semibold text-sm block mb-1">
+                                FOSS
+                            </p>
+                            <div className="space-y-0.5">
+                                <p className="text-xs text-muted-foreground block">
+                                    Key Cloak
+                                </p>
+                                <p className="text-xs text-muted-foreground block">
+                                    K8s
+                                </p>
+                                <p className="text-xs text-muted-foreground block">
+                                    Headscale
+                                </p>
+                            </div>
+                        </div>
+                        <div className="break-inside-avoid">
+                            <p className="font-semibold text-sm block mb-1">
+                            Other
+                            </p>
+                            <div className="space-y-0.5">
+                                <p href="#door-drivethrough" className="text-xs text-muted-foreground block">
+                                    Cloudflare
+                                </p>
+                                <p href="#door-drivethrough" className="text-xs text-muted-foreground block">
+                                    AWS
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                             <SvgComponent/>
                 <Footer />
                 

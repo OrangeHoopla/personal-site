@@ -1,6 +1,7 @@
 import Footer from '@/components/footer';
 import Navbar from '@/components/navbar';
 import SvgComponent from '@/diagrams/hooplaCluster'
+import Cloudflare from '@/diagrams/cloudflare'
 import { promises as fs } from 'fs';
 
 
@@ -26,13 +27,21 @@ export default function Hoopla() {
                             Brad Zylstra, Quade Kirby, Jacob Card-Howe, Frankie Camargo and Emanuel
                         </span>
                     </div>
-                    <div className="max-md:mt-2">Paper</div>
+                    {/* <div className="max-md:mt-2">Paper</div> */}
                     <div>
                         {/* <a href="/download/Documentation.pdf" target="_blank" className="!text-foreground underline underline-offset-2">
                             Documentation.pdf
                         </a> */}
                     </div>
                 </div>
+
+                <p className='text-sm text-muted-foreground mb-4'>
+                    What is the Hoopla Cluster? Running a multi-region Kubernetes cluster on top of a VPN mitigates security concerns to allow for full encrypted traffic - while 
+                    also allowing for mutliple users to interact with the Kubernetes service at different technical levels. Essentially, this allows a group of our technical
+                    friends to geek out and practice/use Kubernetes in its intended form, while still giving our friends access to the possible benefits of us hosting services
+                    through Kubernetes, or to host their own within the VPN. All while having Tailscale(Headscale) worry about handling all of encryption in the background for us.
+                </p>
+
                 <div className="max-w-3xl mx-auto mb-12 mt-8 border border-[#D4D3CB] bg-white/60 p-6">
                     <div className="text-xs font-mono text-muted-foreground uppercase tracking-wider mb-4">
                         Used Technologies
@@ -87,8 +96,23 @@ export default function Hoopla() {
                 </h3>
                 <p className='text-sm text-muted-foreground mb-4'>
                     All cluster nodes, supporting infrastructure, and personal devices participate in a shared Tailnet managed by Headscale (hoopla-headscale.hoopla · 100.64.0.1). Node-to-node traffic is encrypted point-to-point by Tailscale; Headscale acts as the control plane only and does not relay data traffic.
+                    The main motivation behind using this rather than Wireguard is that Tailscale has an extremely friendly interface for adding people with different computing environments.
+                    So friends who want to join are not too intimidated with starting.
                 </p>
-                            <SvgComponent/>
+                <SvgComponent />
+                
+                <h3 className="group/heading relative text-2xl font-normal mt-12 mb-4" id="multimodal-memories">
+                    Cloudflare Tunnel (Keycloak Public Access)
+                </h3>
+                <p className='text-sm text-muted-foreground mb-4'>
+                    Keycloak must be reachable from the public internet so that new users can complete the Headscale OIDC onboarding flow before they have Tailnet access. Rather than opening inbound firewall ports, a cloudflared sidecar container runs inside the Keycloak pod and maintains a persistent outbound tunnel to Cloudflare's edge network.
+
+The same hostname (keycloak.colorfulhoopla.com) works for both Tailnet-connected clients and external users. Cloudflare terminates TLS and routes traffic back through the tunnel to the sidecar.
+                </p>
+                <Cloudflare />
+                <p className='text-sm text-muted-foreground mb-4 mt-4'>
+                    Tunnel credentials are stored as the cloudflared-credentials Secret in the keycloak namespace (currently created manually via kubectl create secret; intended to be synced from 1Password via External Secrets Operator once re-enabled)
+                </p>
                 <Footer />
                 
             </div>

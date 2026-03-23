@@ -62,6 +62,9 @@ export default function Hoopla() {
                                 <p className="text-xs text-muted-foreground block">
                                     Headscale
                                 </p>
+                                <p className="text-xs text-muted-foreground block">
+                                    Argo CD
+                                </p>
                             </div>
                         </div>
                         <div className="break-inside-avoid">
@@ -79,6 +82,12 @@ export default function Hoopla() {
                         </div>
                     </div>
                 </div>
+                <h3 className="group/heading relative text-2xl font-normal mt-12 mb-4" id="multimodal-memories">
+                    Headscale Overview
+                </h3>
+                <p className='text-sm text-muted-foreground mb-4'>
+                    All cluster nodes, supporting infrastructure, and personal devices participate in a shared Tailnet managed by Headscale (hoopla-headscale.hoopla · 100.64.0.1). Node-to-node traffic is encrypted point-to-point by Tailscale; Headscale acts as the control plane only and does not relay data traffic.
+                </p>
                             <SvgComponent/>
                 <Footer />
                 

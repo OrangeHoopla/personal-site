@@ -2,9 +2,6 @@ import Footer from '@/components/footer';
 import Navbar from '@/components/navbar';
 import SvgComponent from '@/diagrams/hooplaCluster'
 import Cloudflare from '@/diagrams/cloudflare'
-import { promises as fs } from 'fs';
-
-
 
 export default function Hoopla() {
     return (

@@ -14,6 +14,16 @@
 
     },
     {
+        "title": "Home Air Quality Sensor",
+        "content": "Based on Air Gradient combining multiple sensore on a D1 Wesmos ESP8266 mini to act as a node for Prometheus",
+        "link": "/projects/air-sensor",
+        "date": "February 24, 2026",
+        "new": false,
+        "box": true,
+        "type": "project"
+
+    },
+    {
         "title": "Scanning Grocery Reciepts",
         "content": "Processing grocery reciepts using multiple image processing techniques before feeding the results into a OCR.",
         "link": "/project/cartlog",
@@ -50,16 +60,6 @@
         "date": "March 12, 2023",
         "new": false,
         "box": false,
-        "type": "project"
-
-    },
-    {
-        "title": "Home Air Quality Sensor",
-        "content": "Based on Air Gradient combining multiple sensore on a D1 Wesmos ESP8266 mini to act as a node for Prometheus",
-        "link": "/project/air-sensor",
-        "date": "February 15, 2026",
-        "new": false,
-        "box": true,
         "type": "project"
 
     },

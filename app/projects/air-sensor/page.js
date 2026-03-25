@@ -1,0 +1,94 @@
+import Footer from '@/components/footer';
+import Navbar from '@/components/navbar';
+import Posts from '@/components/posts';
+
+
+export default function AirSensor() {
+  return (
+    <div className='w-full mx-auto'>
+                <div className = 'max-w-3xl mx-auto'>
+    
+                <Navbar />
+                <p className="font-serif text-6xl mb-6 text-balance md:leading-tight leading-tight">
+                    Home Air Sensor 
+                </p>
+    
+    
+                    <div className="grid md:grid-cols-[120px_1fr] gap-0.5 font-mono text-sm mb-6">
+                        <div>Published</div>
+                        <div>February 24, 2026</div>
+                        <div className="max-md:mt-2">Email</div>
+                        <div className="group relative cursor-default">
+                            <span className="decoration-dotted decoration-foreground/50 underline-offset-4">quadekirby@gmail.com</span>
+                        </div>
+                        {/* <div className="max-md:mt-2">Paper</div> */}
+                        <div>
+                            {/* <a href="/download/Documentation.pdf" target="_blank" className="!text-foreground underline underline-offset-2">
+                                Documentation.pdf
+                            </a> */}
+                        </div>
+                    </div>
+    
+                    <p className='text-sm text-muted-foreground mb-4'>
+                        Why am i making a DIY home air sensor
+                    </p>
+    
+                    <div className="max-w-3xl mx-auto mb-12 mt-8 border border-[#D4D3CB] bg-white/60 p-6">
+                        <div className="text-xs font-mono text-muted-foreground uppercase tracking-wider mb-4">
+                            Used Technologies
+                        </div>
+                        <div className="columns-1 sm:columns-2 gap-8">
+                            <div className="break-inside-avoid mb-4">
+                                <p className="font-semibold text-sm block mb-1">
+                                    Semi-FOSS
+                                </p>
+                                <div className="space-y-0.5">
+                                    <p href="#door-drivethrough" className="text-xs text-muted-foreground block">
+                                        Tailscale
+                                    </p>
+                                </div>
+                            </div>
+                            <div className="break-inside-avoid mb-4">
+                                <p href="#event-2-laundry" className="font-semibold text-sm block mb-1">
+                                    FOSS
+                                </p>
+                                <div className="space-y-0.5">
+                                    <p className="text-xs text-muted-foreground block">
+                                        Prometheus
+                                    </p>
+                                    <p className="text-xs text-muted-foreground block">
+                                        Grafana
+                                    </p>
+                                    <p className="text-xs text-muted-foreground block">
+                                        Docker
+                                    </p>
+                                    <p className="text-xs text-muted-foreground block">
+                                        Argo CD
+                                    </p>
+                                </div>
+                            </div>
+                            <div className="break-inside-avoid">
+                                <p className="font-semibold text-sm block mb-1">
+                                Other
+                                </p>
+                                <div className="space-y-0.5">
+                                    <p href="#door-drivethrough" className="text-xs text-muted-foreground block">
+                                        Cloudflare
+                                    </p>
+                                    <p href="#door-drivethrough" className="text-xs text-muted-foreground block">
+                                        AWS
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <Footer />
+                    
+                </div>
+    
+                     
+            </div>
+  );
+}

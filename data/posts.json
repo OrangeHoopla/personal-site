@@ -14,13 +14,13 @@
 
     },
     {
-        "title": "Lorem Ipsum",
-        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of ",
-        "link": "/blog/fake",
+        "title": "Home Air Quality Sensor",
+        "content": "Based on Air Gradient combining multiple sensore on a D1 Wesmos ESP8266 mini to act as a node for Prometheus",
+        "link": "/projects/air-sensor",
         "date": "February 24, 2026",
         "new": false,
         "box": true,
-        "type": "blog"
+        "type": "project"
 
     }
 

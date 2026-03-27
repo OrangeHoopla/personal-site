@@ -1,7 +1,6 @@
 import Footer from '@/components/footer';
 import Navbar from '@/components/navbar';
-import Posts from '@/components/posts';
-
+import Wwww from '@/components/WWWW';
 
 export default function AirSensor() {
   return (
@@ -28,7 +27,9 @@ export default function AirSensor() {
                             </a> */}
                         </div>
                     </div>
-    
+                    
+                    
+                    
                     <p className='text-sm text-muted-foreground mb-4'>
                         Why am i making a DIY home air sensor
                     </p>
@@ -82,7 +83,11 @@ export default function AirSensor() {
                             </div>
                         </div>
                     </div>
-
+                    
+                    <div className='h-150'>
+                                <Wwww />
+                    </div>
+                    
 
                     <Footer />
                     

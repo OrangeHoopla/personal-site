@@ -41,27 +41,27 @@ export default function AirSensor() {
                         <div className="columns-1 sm:columns-2 gap-8">
                             <div className="break-inside-avoid mb-4">
                                 <p className="font-semibold text-sm block mb-1">
-                                    Semi-FOSS
+                                    Chip
                                 </p>
                                 <div className="space-y-0.5">
                                     <p href="#door-drivethrough" className="text-xs text-muted-foreground block">
-                                        Tailscale
+                                        ESP-8266
                                     </p>
                                 </div>
                             </div>
                             <div className="break-inside-avoid mb-4">
                                 <p href="#event-2-laundry" className="font-semibold text-sm block mb-1">
-                                    FOSS
+                                    Sensors
                                 </p>
                                 <div className="space-y-0.5">
                                     <p className="text-xs text-muted-foreground block">
-                                        Prometheus
+                                        Senseair S8 Module
                                     </p>
                                     <p className="text-xs text-muted-foreground block">
-                                        Grafana
+                                        PMS5003
                                     </p>
                                     <p className="text-xs text-muted-foreground block">
-                                        Docker
+                                        SHT30
                                     </p>
                                     <p className="text-xs text-muted-foreground block">
                                         Argo CD

@@ -31,7 +31,9 @@ export default function AirSensor() {
                     
                     
                     <p className='text-sm text-muted-foreground mb-4'>
-                        Why am i making a DIY home air sensor
+                  Based on the Airgradient home sensor this is a small side project or effectively a assembly of their project, minus
+                  the generic flash capability. I have also removed the small screen sensor in favor of simple LEDs as a direct indicator 
+                  to the overall quality of the air.
                     </p>
     
                     <div className="max-w-3xl mx-auto mb-12 mt-8 border border-[#D4D3CB] bg-white/60 p-6">

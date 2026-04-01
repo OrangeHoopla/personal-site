@@ -5,6 +5,7 @@ import Posts from "@/components/posts";
 
 export default function Home() {
   return (
+  <div className='w-full mx-auto dark:bg-black'>
     <div className="flex content-start flex-wrap min-h-screen items-left w-2/5 font-sans dark:bg-black sm:justify-start px-11 ">
       
       <Navbar />
@@ -18,6 +19,7 @@ export default function Home() {
       <Posts fileLocation="/data/posts.json"/>
       <Footer/>
     
+      </div>
     </div>
   );
 }

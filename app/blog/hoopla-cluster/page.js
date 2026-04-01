@@ -5,7 +5,7 @@ import Cloudflare from '@/diagrams/cloudflare'
 
 export default function Hoopla() {
     return (
-        <div className='w-full mx-auto'>
+        <div className='w-full mx-auto dark:bg-black'>
             <div className = 'max-w-3xl mx-auto'>
 
             <Navbar />

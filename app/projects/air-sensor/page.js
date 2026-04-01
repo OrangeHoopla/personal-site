@@ -4,7 +4,8 @@ import Wwww from '@/components/WWWW';
 
 export default function AirSensor() {
   return (
-    <div className='w-full mx-auto'>
+      <div className='w-full mx-auto'>
+          <div className='w-full mx-auto dark:bg-black'>
                 <div className = 'max-w-3xl mx-auto'>
     
                 <Navbar />
@@ -96,6 +97,7 @@ export default function AirSensor() {
                 </div>
     
                      
-            </div>
+          </div>
+        </div>
   );
 }

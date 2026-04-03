@@ -29,8 +29,6 @@ export default function AirSensor() {
                         </div>
                     </div>
                     
-                    
-                    
                     <p className='text-sm text-muted-foreground mb-4'>
                   Based on the Airgradient home sensor this is a small side project or effectively a assembly of their project, minus
                   the generic flash capability. I have also removed the small screen sensor in favor of simple LEDs as a direct indicator 
@@ -85,18 +83,13 @@ export default function AirSensor() {
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    
+                    </div> 
                     <div className='h-150'>
-                                <Wwww />
+                        <Wwww />
                     </div>
-                    
-
                     <Footer />
                     
-                </div>
-    
-                     
+                </div>          
           </div>
         </div>
   );

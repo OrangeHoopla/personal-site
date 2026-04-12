@@ -86,7 +86,6 @@ export default function AirSensor() {
                     </div> 
                     <div className='h-150 py-10'>
                       <Top />
-                      <Bottom/>
                   </div>
                   <div className='h-150 py-10'>
                       <Bottom/>

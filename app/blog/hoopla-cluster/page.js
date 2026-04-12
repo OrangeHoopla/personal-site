@@ -12,8 +12,6 @@ export default function Hoopla() {
             <p className="font-serif text-6xl mb-6 text-balance md:leading-tight leading-tight">
                 Hoopla Cluster 
             </p>
-
-
                 <div className="grid md:grid-cols-[120px_1fr] gap-0.5 font-mono text-sm mb-6">
                     <div>Published</div>
                     <div>March 11, 2026</div>

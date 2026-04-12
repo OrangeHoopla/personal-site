@@ -1,6 +1,7 @@
 import Footer from '@/components/footer';
 import Navbar from '@/components/navbar';
-import Wwww from '@/components/WWWW';
+import Top from '@/components/TOP';
+import Bottom from '@/components/BOT';
 
 export default function AirSensor() {
   return (
@@ -12,7 +13,6 @@ export default function AirSensor() {
                 <p className="font-serif text-6xl mb-6 text-balance md:leading-tight leading-tight">
                     Home Air Sensor 
                 </p>
-    
     
                     <div className="grid md:grid-cols-[120px_1fr] gap-0.5 font-mono text-sm mb-6">
                         <div>Published</div>
@@ -84,9 +84,16 @@ export default function AirSensor() {
                             </div>
                         </div>
                     </div> 
-                    <div className='h-150'>
-                        <Wwww />
-                    </div>
+                    <div className='h-150 py-10'>
+                      <Top />
+                      <Bottom/>
+                  </div>
+                  <div className='h-150 py-10'>
+                      <Bottom/>
+                  </div>
+                  <p className='text-sm text-muted-foreground mb-4 p-15'>
+                      testing if this is the right spot
+                  </p>
                     <Footer />
                     
                 </div>          

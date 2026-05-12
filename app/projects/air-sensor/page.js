@@ -90,9 +90,7 @@ export default function AirSensor() {
                   <div className='h-150 py-10'>
                       <Bottom/>
                   </div>
-                  <p className='text-sm text-muted-foreground mb-4 p-15'>
-                      testing if this is the right spot
-                  </p>
+                  
                     <Footer />
                     
                 </div>          

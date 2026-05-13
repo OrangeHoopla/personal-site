@@ -4,11 +4,21 @@
 
   "posts": [ 
     {
+        "title": "Scanning Grocery Reciepts",
+        "content": "Processing grocery reciepts using multiple image processing techniques before feeding the results into a OCR.",
+        "link": "/project/cartlog",
+        "date": "December 15, 2025",
+        "new": false,
+        "box": true,
+        "type": "project"
+
+    },
+    {
         "title": "Running K8s Cluster in Tailscale",
         "content": "Running a high availavility cluster across the east coast with a few friends. Underneath a VPN, using an opensource version of tailscale.",
         "link": "/blog/hoopla-cluster",
         "date": "March 11, 2026",
-        "new": true,
+        "new": false,
         "box": false,
         "type": "project"
 

@@ -9,42 +9,61 @@ export default function Resume() {
 
         <Navbar />
 
+        <p className="font-mono text-sm pb-9">
+          While I’m fully locked into my current projects and not looking for a move,
+          I’m always down to talk shop or look at a truly unique engineering challenge.
+          If you're building something wild in spatial AI or hardware-software integration,
+          consider this my digital handshake.
+        </p>
+
+        <div class="border-b border-gray-500">
+          <button onclick="toggleAccordion(1)" class="w-full flex justify-between items-center py-5">
+            <span className='font-bold'>Work Experience</span>
+            <span id="icon-1" class="text-slate-800 transition-transform duration-300">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4">
+                <path d="M8.75 3.75a.75.75 0 0 0-1.5 0v3.5h-3.5a.75.75 0 0 0 0 1.5h3.5v3.5a.75.75 0 0 0 1.5 0v-3.5h3.5a.75.75 0 0 0 0-1.5h-3.5v-3.5Z" />
+              </svg>
+            </span>
+          </button>
+        <div id="content-1" class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
+          <div class="pb-5 text-sm text-slate-500">
+            Material Tailwind is a framework that enhances Tailwind CSS with additional styles and components.
+          </div>
+        </div>
+      </div>
+      
         
-
-        <div className="grid md:grid-cols-[120px_1fr] gap-0.5 font-mono text-sm mb-6">
-                    <div>Published</div>
-                    <div>Jun 28, 2026</div>
-                    <div className="max-md:mt-2">Email</div>
-                    <div className="group relative cursor-default">
-                        <span className="underline decoration-dotted decoration-foreground/50 underline-offset-4">quadekirby@gmail.com</span>
-                    </div>
-                    {/* <div className="max-md:mt-2">Paper</div> */}
-                    <div>
-                        {/* <a href="/download/Documentation.pdf" target="_blank" className="!text-foreground underline underline-offset-2">
-                            Documentation.pdf
-                        </a> */}
-                    </div>
+      <div class="border-b border-gray-500">
+          <button onclick="toggleAccordion(1)" class="w-full flex justify-between items-center py-5">
+            <span className='font-bold'>Skills</span>
+            <span id="icon-1" class="text-slate-800 transition-transform duration-300">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4">
+                <path d="M8.75 3.75a.75.75 0 0 0-1.5 0v3.5h-3.5a.75.75 0 0 0 0 1.5h3.5v3.5a.75.75 0 0 0 1.5 0v-3.5h3.5a.75.75 0 0 0 0-1.5h-3.5v-3.5Z" />
+              </svg>
+            </span>
+          </button>
+        <div id="content-1" class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
+          <div class="pb-5 text-sm text-slate-500">
+            Material Tailwind is a framework that enhances Tailwind CSS with additional styles and components.
+          </div>
         </div>
-        <div>
-          <h2 className="font-bold">Department of Defense</h2>
-          <h3 className="font-mono">GG 11</h3>
-
-          <ul className="list-disc pl-6">
-            <li>Led small group of software engineers in maintaining enterprise system</li>
-            <li>Designed and built distributed enterprise system using microservices</li>
-            <li>Mentored multiple junior developers through code reviews and pair programming</li>
-            <li>Architected portions of a system that utilized multiple HPCs to utilize their full compute capacity</li>
-          </ul>
-
-          <h3 className="font-mono">GG 7/9</h3>
-          <ul className="list-disc pl-6">
-            <li>Collaborated with cross-functional teams and customers to understand needs and derive software requirements for complex systems</li>
-            <li>Analyzed complex problems and proposed effective technical solutions, considering costs and benefits</li>
-            <li>Optimized MongoDb resource usage allowing major cost savings</li>
-            <li>Optimized internal user service reducing result from 30 minutes to 3 minutes</li>
-            <li>Applied software engineering principles to design, develop and maintain robust and scalable software applications</li>
-          </ul>
+      </div>
+      
+      <div class="border-b border-gray-500">
+          <button onclick="toggleAccordion(1)" class="w-full flex justify-between items-center py-5">
+            <span className='font-bold'>Education</span>
+            <span id="icon-1" class="text-slate-800 transition-transform duration-300">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4">
+                <path d="M8.75 3.75a.75.75 0 0 0-1.5 0v3.5h-3.5a.75.75 0 0 0 0 1.5h3.5v3.5a.75.75 0 0 0 1.5 0v-3.5h3.5a.75.75 0 0 0 0-1.5h-3.5v-3.5Z" />
+              </svg>
+            </span>
+          </button>
+        <div id="content-1" class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
+          <div class="pb-5 text-sm text-slate-500">
+            Material Tailwind is a framework that enhances Tailwind CSS with additional styles and components.
+          </div>
         </div>
+      </div>
         
         
         

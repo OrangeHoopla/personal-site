@@ -4,6 +4,15 @@
 
   "posts": [ 
     {
+      "title": "Exploring Tauri",
+      "content": "Looking into if tauri would be a nice medium to express small rust based coding projects",
+      "link": "/blog/tauri",
+      "date": "October 14, 2026",
+      "new": false,
+      "box": true,
+      "type": "blog"
+    },
+    {
         "title": "Running K8s Cluster in Tailscale",
         "content": "The complexities that no one thinks about when you are trying to have things secure",
         "link": "/blog/hoopla-cluster",

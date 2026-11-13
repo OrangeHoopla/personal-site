@@ -27,7 +27,7 @@ export default function Resume() {
           </button>
         <div id="content-1" class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
           <div class="pb-5 text-sm text-slate-500">
-            Material Tailwind is a framework that enhances Tailwind CSS with additional styles and components.
+            really need to work on this to include resume points
           </div>
         </div>
       </div>
